@@ -79,7 +79,7 @@ public class VariableStateButton extends AppCompatButton {
             setBackgroundDrawable(gd);
         }
         setGravity(Gravity.CENTER);
-
+        setClickable(true);
     }
 
 
@@ -109,7 +109,7 @@ public class VariableStateButton extends AppCompatButton {
         } else {
             gd.setAlpha(mClickableAlpha);
         }
-        return true;
+        return super.onTouchEvent(event);
     }
 
     private int dp2px(Context context, float dpValue) {
