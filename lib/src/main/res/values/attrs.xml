@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VariableStateButton">
+        <attr name="color_background" format="color"/>
+        <attr name="unClick_alpha" format="float"/>
+        <attr name="pressed_alpha" format="float"/>
+        <attr name="bg_corner" format="dimension" />
+    </declare-styleable>
+</resources>
